@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "lib": [
+      "es2020"
+    ],
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noStrictGenericChecks": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "incremental": false,
+    "isolatedModules": true,
+    "noEmitHelpers": true,
+    "strict": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "noImplicitOverride": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+  ]
+}

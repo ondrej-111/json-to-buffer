@@ -1,0 +1,32 @@
+{
+  "env": {
+    "node": true,
+    "es2020": true,
+    "commonjs": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": 2,
+    "valid-jsdoc": 0,
+    "require-jsdoc": 0,
+    "camelcase": 0,
+    "new-cap": 1,
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-inferrable-types": 1,
+    "@typescript-eslint/ban-types": 1
+  }
+}

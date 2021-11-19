@@ -1,0 +1,44 @@
+{
+  "name": "json-to-buffer",
+  "version": "1.0.0",
+  "description": "Simple helper for convert large JSON objects to Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "clean": "rm -rf ./lib && rm -rf ./lib-esm",
+    "build": "npm run clean && npx tsc && tsc -m es6 --outDir lib-esm && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondrej-111/json-to-buffer.git"
+  },
+  "keywords": [
+    "json",
+    "convert",
+    "buffer"
+  ],
+  "author": "Ondrej Zoricak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ondrej-111/json-to-buffer/issues"
+  },
+  "homepage": "https://github.com/ondrej-111/json-to-buffer#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-prettier": "~4.0.0",
+    "prettier": "~2.3.2",
+    "@typescript-eslint/eslint-plugin": "~5.4.0",
+    "@typescript-eslint/parser": "~5.4.0",
+    "ts-loader": "~9.2.5",
+    "ts-node": "~10.2.1",
+    "tsconfig-paths": "~3.11.0",
+    "tsconfig-paths-webpack-plugin": "~3.5.1",
+    "typescript": "~4.4.2",
+    "webpack": "~5.51.1",
+    "webpack-cli": "~4.8.0",
+    "ts-jest": "~27.0.5",
+    "jest": "~27.3.1",
+    "@types/jest": "~27.0.3"
+  }
+}
