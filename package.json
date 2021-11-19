@@ -1,8 +1,8 @@
 {
   "name": "json-to-buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple helper for convert large JSON objects to Buffer",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch",
