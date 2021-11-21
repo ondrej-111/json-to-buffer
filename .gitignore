@@ -23,6 +23,8 @@ lib
 lib-esm
 
 # Coverage directory used by tools like istanbul
+coverage
+html-report
 *.lcov
 
 # nyc test coverage
