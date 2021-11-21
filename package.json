@@ -39,6 +39,7 @@
     "webpack-cli": "~4.8.0",
     "ts-jest": "~27.0.5",
     "jest": "~27.3.1",
-    "@types/jest": "~27.0.3"
+    "@types/jest": "~27.0.3",
+    "jest-html-reporters": "^2.1.6"
   }
 }

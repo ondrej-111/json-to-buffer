@@ -7,5 +7,6 @@ src
 lib-esm
 
 coverage
+html-report
 tests
-jest.config.js
+jest.config.ts
