@@ -1,6 +1,6 @@
 {
   "name": "json-to-buffer",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Simple helper for convert large JSON objects to Buffer",
   "main": "lib/index.js",
   "scripts": {
